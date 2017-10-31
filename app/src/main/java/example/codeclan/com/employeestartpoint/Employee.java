@@ -38,4 +38,8 @@ public class Employee {
         return socialSecurityNumber;
     }
 
+    public void raiseSalary(double amount) {
+        this.salary += amount;
+    }
+
 }
