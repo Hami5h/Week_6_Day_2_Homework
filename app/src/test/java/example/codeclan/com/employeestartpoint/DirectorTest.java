@@ -20,4 +20,10 @@ public class DirectorTest {
     public void canGetBudget() {
         assertEquals(120000, director.getBudget(), 0.01);
     }
+
+    @Test
+    public void canRaiseSalary() {
+        director.raiseSalary(5000.00);
+        assertEquals(61000.00, director.getSalary(), 0.01);
+    }
 }
