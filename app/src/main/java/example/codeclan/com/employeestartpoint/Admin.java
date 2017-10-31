@@ -6,7 +6,7 @@ package example.codeclan.com.employeestartpoint;
 
 public class Admin extends Employee {
 
-    public Engineer(int id, String name, String socialSecurityNumber, double salary) {
+    public Admin(int id, String name, String socialSecurityNumber, double salary) {
         super(id, name, socialSecurityNumber, salary);
     }
 }
